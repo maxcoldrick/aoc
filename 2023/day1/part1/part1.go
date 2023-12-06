@@ -54,7 +54,7 @@ func duplicateSingleInt(input []string) int {
 func stringToInt(input string) int {
 	output, err := strconv.Atoi(input)
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
 	}
 	return output
 }
